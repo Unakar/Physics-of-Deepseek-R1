@@ -1,0 +1,14 @@
+INFO:     Started server process [4146219]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:1278 (Press CTRL+C to quit)
+INFO 01-31 09:48:10 kk_server.py:138] Processing Metrics: {'total_processed': 1, 'format_errors': 1, 'answer_errors': 0}
+INFO 01-31 09:48:10 kk_server.py:173] Processed 1 queries
+INFO:     127.0.0.1:47836 - "POST /get_reward HTTP/1.1" 200 OK
+INFO 01-31 09:48:11 kk_server.py:138] Processing Metrics: {'total_processed': 2, 'format_errors': 2, 'answer_errors': 0}
+INFO 01-31 09:48:11 kk_server.py:173] Processed 1 queries
+INFO:     127.0.0.1:47838 - "POST /get_reward HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4146219]
